@@ -1,0 +1,109 @@
+/* PC */
+@media (min-width: 1024px){
+
+}
+
+/* TABLET */
+@media (max-width: 1023px) and (min-width: 740px){
+    #slider .text-content{
+        bottom: 78px;
+    }
+}
+
+/* MOBILE */
+@media (max-width: 739px){
+    #slider .text-content{
+        bottom: 40px;
+    }
+
+    #slider .text-heading{
+        font-size: 25px;
+    }
+    #slider .text-discrip {
+        font-size: 15px;
+        margin-top: 7px;
+    }
+    .scol-full{
+        width: 100%;
+    }
+    
+    #nav{
+        display: block;
+    }
+    
+    #nav > li{
+        display: block;
+    }
+
+    #nav > li:hover > a{
+        display: block;
+    }
+
+    #nav > li:first-child{
+        display: inline-block;
+    }
+
+    #nav .subnav{
+        position: initial;
+    }
+
+    #nav .subnav li{
+        display: block;
+        background-color: #333;
+    }
+
+    #nav .subnav a{
+        color: white;
+        padding: 5px 41px;
+        display: block;
+    }
+
+    #header{
+        overflow: hidden;
+    }
+
+    #header .mobile-menu{
+        display: block;
+    }
+
+    #header .search-btn{
+        display: none;
+        float: right;
+    }
+
+    #container .in4-discrip{
+        width: 100%;
+        float: none;
+    }
+
+    #container .in4-discrip .in4-name{
+        margin-top: 12px;
+    }
+
+    .tour-places .tour-places-in4{
+        width: 100%;
+        float: none;
+        margin: 20px 0;
+    }
+
+    .contact-left{
+        margin-bottom: 16px;
+    }
+
+    .contact-right .contact-form{
+        margin-top: 8px;
+    }
+
+    .places-detail .places-buy-btn{
+        width: 100%;
+        border-radius:22px;
+    }
+
+    .modal #buy-ticket{
+        border-radius: 28px;
+    }
+
+    #container .c-subheading{
+        font-size: 23px;
+    }
+}
